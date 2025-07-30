@@ -5,7 +5,7 @@ homepage:
 
 environment:
   sdk: ^3.7.2
-  flutter: '>=3.3.0'
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
@@ -36,6 +36,8 @@ flutter:
     platforms:
       android:
         package: com.example.speed_tracker
+        pluginClass: SpeedTrackerPlugin
+      ios:
         pluginClass: SpeedTrackerPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
